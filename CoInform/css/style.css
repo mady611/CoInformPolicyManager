@@ -1,0 +1,138 @@
+	body,
+		html {
+			margin: 0;
+			padding: 0;
+			height: 90%;
+			background: #62b9af !important;
+		}
+		.co-purple{
+			background: #693c5e;
+		}
+		.co-wrapper{
+			text-align: center;
+		}
+		.co-link{
+			color: black;
+		}
+		.co-link:hover{
+			color: black;
+			text-decoration: none;
+		}
+		.co-mg-50{
+			margin: 50px;
+		}
+
+		.co-white .nav-item .nav-link{
+			color: white;
+		}
+		.co_index_text{
+			background-color: transparent;
+		}
+		.user_card {
+			height: 450px;
+			width: 350px;
+			margin-top: 30px;
+			margin-bottom: auto;
+			background: #693c5e;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #62b9af;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 50px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #62b9af !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #62b9af !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #c0392b !important;
+		}
+		.form_title {
+			color: white;
+			font-size: 40px;
+		}
+		.co-forum-content {
+			width: 80%;
+			display: inline-block;
+		}
+		.co-forum-post{
+			text-align:	left;
+		}
+		.co-forum-topic{
+			font-size: 24px;
+			font-weight: bold;
+			border-bottom: 1px black solid;
+		}
+		.co-forum-topic .cat-name{
+			font-size: 16px;
+			font-weight: normal;
+		}
+		.co-forum-post-text{
+			margin: 10px;
+		}
+		.co-forum-post-text .user{
+			margin: 10px;
+		}
+		.co-forum-post-text .user img{
+			height: 20px;
+			width: 20px;
+		}
+		.co-forum-post-text .reply{
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.co-rule-title{
+			margin: 20px;
+			color: white;
+			font-size: 20px;
+		}
+		.co-rule-items{
+			margin: 20px;
+		}
+		.co-rule-btn{
+			width:20%;
+		}
